@@ -6,44 +6,43 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-	<form action="">
-        <h5>Name*</h5>
+<form>
+        <label for="Name">Name*</label>
+       
        <!--<input type="text" id="username" name="username" required>--> 
         <input id="name" type="text" name="name"  required placeholder=" Name"  > <br> <br>
-        
-        <h5>Email*</h5>
-        <input id="email" type="email" name="email" required   placeholder="Email"><br> 
-        
-        <h5>Gender*</h5>
+    
+        <label for="email">Email*</label>
+        <input id="email" type="email" name="email" required   placeholder="Email"> <br> <br>
+       
+       
+        <label for="gender">Gender*</label>
         <input type="radio" name="Gender">Male 
         <input type="radio" name="Gender">Female   <br> <br>
 
-
-        <h5>DOB*</h5>
+        <label for="dob">DOB*</label>
         <input id="dob" type="Date" name="DOB"  required placeholder="DOB"> <br> <br>
         
-        <h5>Age*</h5>
-        <input id="age" type="Number" name="Age" required  placeholder="Age">
+        <label for="age">Age*</label>
+        <input id="age" type="Number" name="Age" required  placeholder="Age"> <br> <br>
         
-        
-        <h5>Laptop Brands</h5>
+       <label for="Laptop Brands">Laptop Brands</label>
         <input id="laptop" type="checkbox">Apple
         <input type="checkbox">Asus
         <input type="checkbox">HP <br> <br>
         
-        <h5>PortFolio ID</h5>
-        <input id="portfolio" type="link" Name="Portfolio" placeholder="Portfolio">
+        <label for="PortFolio">PortFolio ID</label>
+        <input id="portfolio" type="link" Name="Portfolio" placeholder="Portfolio"> <br><br>
        
-        <h5>Passward* </h5>
+        <label for="passward">Passward*</label>
         <input id="passward" type="passward" name="passward" required placeholder="Passward"> <br> <br>
 
 
      <button>
         Submit
      </button>
-        
-    </form>
+	
+</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>

@@ -9,7 +9,7 @@
 <body>
 	
 
-    <form action="Job Application Form">
+    <form action="Job Application Form" method="get">
    
         <label for="name">Name*</label>
        
@@ -20,7 +20,7 @@
         <input id="email" type="email" name="email" required   placeholder="Email"> <br> <br>
        
        
-        <label for="gender">Gender*</label>
+        <label for="gender"required>Gender*</label>
         
         <input type="radio" name="gender">Male 
         <input type="radio" name="gender">Female   <br> <br>
@@ -31,7 +31,7 @@
         <label for="age">Age*</label>
         <input id="age" type="Number" name="age" required  placeholder="Age"> <br> <br>
         
-       <label for="laptop Brands">Laptop Brands</label>
+       <label for="select laptop">Select Laptops</label>
         <input id="select laptop" type="checkbox">Apple
         <input id="select laptop" type="checkbox">Asus
         <input id="select laptop" type="checkbox">HP <br> <br>
@@ -48,6 +48,7 @@
      </button>
         
     </form>
+
 
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
